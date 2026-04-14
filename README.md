@@ -16,6 +16,7 @@ This Python application changes your desktop wallpaper based on real-time weathe
   - `ctypes`
   - `screeninfo`
   - `requests`
+  - `numpy`
 
 ### Installation
 

@@ -48,7 +48,6 @@ while True:
                 width,height = m.width, m.height
 
             img = cv2.resize(img,(width,height))
-            print(img.shape)
 
             if not os.path.exists("temp"):
                 os.makedirs("temp")
@@ -68,6 +67,7 @@ while True:
                 IMG_PATH,
                 SPIF_UPDATEINIFILE | SPIF_SENDCHANGE
             )
+            print("wallpaper changed)
             prev_weather = weather
         else:
             print("Weather is the same. No need to change wallpaper.")

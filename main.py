@@ -67,7 +67,7 @@ while True:
                 IMG_PATH,
                 SPIF_UPDATEINIFILE | SPIF_SENDCHANGE
             )
-            print("wallpaper changed)
+            print("wallpaper changed")
             prev_weather = weather
         else:
             print("Weather is the same. No need to change wallpaper.")

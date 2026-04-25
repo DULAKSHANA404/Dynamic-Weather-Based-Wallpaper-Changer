@@ -6,8 +6,8 @@ import numpy as np
 import ctypes
 import time
 
-API_KEY = "23b54d08d6733d92d6f74ca6f2e37abe"
-IMAGE_API = "eMbs-65rKnTwRRSGueLpcqxkjburdSX3N-Ga6OPUtNI"
+API_KEY = "" #put ur api here or create one >>>https://openweathermap.org/api
+IMAGE_API = ""  # same here >>> https://unsplash.com/developers
 
 while True:
     try:
